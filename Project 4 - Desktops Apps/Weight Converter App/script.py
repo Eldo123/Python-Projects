@@ -1,6 +1,6 @@
 from tkinter import *
 
-window = Tk()
+
 
 def kg_others():
     a=float(e1_value.get())
@@ -10,6 +10,8 @@ def kg_others():
     t2.insert(END,pounds)
     ounce=a*35.274
     t3.insert(END,ounce)
+
+window = Tk()
 
 
 b1=Button(window,text="Convert",command=kg_others)
