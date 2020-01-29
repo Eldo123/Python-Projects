@@ -1,0 +1,2 @@
+class QuotesPage:
+    pass
